@@ -7,6 +7,8 @@ import { cn } from "@/lib/utils";
 const navItems = [
   { to: "/", label: "Home", end: true },
   { to: "/products", label: "Books", end: false },
+  { to: "/about", label: "About", end: false },
+  { to: "/contact", label: "Contact", end: false },
 ];
 
 export default function Header() {
